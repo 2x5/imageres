@@ -1,0 +1,22 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "semistandard"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "camelcase": 0,
+    "quotes": 0,
+    "eqeqeq": "warn",
+    "handle-callback-err": "warn"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  }
+}

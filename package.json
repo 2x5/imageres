@@ -9,7 +9,6 @@
   "author": "shizazzle",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.1.4",
     "aws-sdk": "^2.7.7",
     "bluebird": "^3.4.6",
     "eslint": "^3.10.2",

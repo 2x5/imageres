@@ -9,11 +9,12 @@
   "author": "shizazzle",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.1.4",
     "aws-sdk": "^2.7.7",
-    "bluebird": "^3.4.6",
     "eslint": "^3.10.2",
     "eslint-config-semistandard": "^7.0.0",
     "eslint-config-standard": "^6.2.1",
+    "gm": "^1.23.0",
     "imagemagick": "^0.1.3"
   }
 }

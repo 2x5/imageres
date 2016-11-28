@@ -1,7 +1,7 @@
 'use strict';
 var AWS = require('aws-sdk');
-var fs  = require('fs');
-var Promise  = require('bluebird');
+var fs = require('fs');
+var Promise = require('bluebird');
 
 // AWS Configurations
 AWS.config.loadFromPath('./config.json');
@@ -11,15 +11,15 @@ var s3 = new AWS.S3({params: {Bucket: 'imageres'}});
 const download = (key) => {
     console.log('downloading %s', key);
     return Promise.resolve(
-        s3.getObject({Key: key }, function(err, data) {
+        s3.getObject({Key: key }, function (err, data) {
             if (err) {
                 console.log(err, err.stack);
             } else {
                 return data.Body;
             }
         })
-    )
-}
+    );
+};
 
 const upload = (filename) => {
     var file = new Buffer(fs.readFileSync(filename));
@@ -37,13 +37,12 @@ const upload = (filename) => {
             }
         })
     );
-}
+};
 
 exports.upload = upload;
 exports.download = download;
 
 if (process.argv[2]) {
-    download(process.argv[2])
+    download(process.argv[2]);
 }
-
 

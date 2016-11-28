@@ -12,7 +12,7 @@ var util = require('util');
 // get reference to S3 client
 var s3 = new AWS.S3();
 
-exports.handler = function(event, context) {
+exports.handler = function (event, context) {
     console.log('event object: ' + JSON.stringify(event.body));
     var jsonEvent = event.body;
 
@@ -26,7 +26,7 @@ exports.handler = function(event, context) {
 
     // Download the image from S3, fix orientation, resize, and upload as new file names.
 
-    function processImage(image, callback) {
+    function processImage (image, callback) {
         var srcKey = image.src_key;
 
         // Infer the image type.
@@ -43,43 +43,43 @@ exports.handler = function(event, context) {
         }
 
         async.waterfall([
-                function download(next) {
-                    console.log('started processing the image - ' + srcKey);
+            function download (next) {
+                console.log('started processing the image - ' + srcKey);
                     // Download the image from S3 into a buffer.
-                    s3.getObject({
-                            Bucket: srcBucket,
-                            Key: srcKey
-                        },
-                        next);
+                s3.getObject({
+                    Bucket: srcBucket,
+                    Key: srcKey
                 },
-                function orientation(response, next) {
+                        next);
+            },
+            function orientation (response, next) {
                     // Fix orientation
-                    gm(response.Body).orientation(function(err, value) {
-                        if (value === 'Undefined') {
-                            console.log('image does not have any exif orientation data: ' + srcBucket + '/' + srcKey);
-                            return;
-                        } else {
-                            console.log('auto orienting image with exif data', value);
+                gm(response.Body).orientation(function (err, value) {
+                    if (value === 'Undefined') {
+                        console.log('image does not have any exif orientation data: ' + srcBucket + '/' + srcKey);
+                        return;
+                    } else {
+                        console.log('auto orienting image with exif data', value);
                             // Transform the image buffer in memory.
-                            this.autoOrient() //(width, height)
-                                .toBuffer(imageType, function(err, buffer) {
+                        this.autoOrient() // (width, height)
+                                .toBuffer(imageType, function (err, buffer) {
                                     if (err) {
                                         next(err);
                                     } else {
                                         next(null, response, buffer);
                                     }
                                 });
-                        }
-                    });
-                },
-                function tranform(response, data, next) {
-                    async.map(sizeConfigs, resize, function(err, mapped) {
-                        next(err, mapped);
-                    });
+                    }
+                });
+            },
+            function tranform (response, data, next) {
+                async.map(sizeConfigs, resize, function (err, mapped) {
+                    next(err, mapped);
+                });
 
-                    function resize(config, callback) {
-                        gm(response.Body)
-                            .size(function(err, size) {
+                function resize (config, callback) {
+                    gm(response.Body)
+                            .size(function (err, size) {
                                 if (err) {
                                     next(err);
                                 }
@@ -95,7 +95,7 @@ exports.handler = function(event, context) {
 
                                 this.resize(width, height)
                                     .quality(90)
-                                    .toBuffer(imageType, function(err, buffer) {
+                                    .toBuffer(imageType, function (err, buffer) {
                                         console.log('toBuffer');
                                         if (err) {
                                             console.error(err);
@@ -110,12 +110,12 @@ exports.handler = function(event, context) {
                                         }
                                     });
                             });
-                    }
-                },
-                function upload(items, next) {
-                    console.log('in putObject' + util.inspect(items, false, null));
-                    async.each(items,
-                        function(item, callback) {
+                }
+            },
+            function upload (items, next) {
+                console.log('in putObject' + util.inspect(items, false, null));
+                async.each(items,
+                        function (item, callback) {
                             s3.putObject({
                                 Bucket: srcBucket,
                                 Key: item.dstKey,
@@ -123,12 +123,12 @@ exports.handler = function(event, context) {
                                 ContentType: item.contentType
                             }, callback);
                         },
-                        function(err) {
+                        function (err) {
                             next(err);
                         });
-                },
-            ],
-            function(err) {
+            }
+        ],
+            function (err) {
                 if (err) {
                     console.error(
                         'Unable to resize ' + srcBucket + '/' + srcKey +
@@ -143,7 +143,7 @@ exports.handler = function(event, context) {
         );
     }
 
-    async.each(imageList, processImage, function(err) {
+    async.each(imageList, processImage, function (err) {
         var response = {};
         if (err) {
             response = {

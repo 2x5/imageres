@@ -2,116 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63ad569-dc86-4461-acdf-3dccbb0877d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/apply.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/applyEach.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/applyEachSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/asyncify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/auto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/autoInject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/cargo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/compose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/concatSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/constant.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/detect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/detectLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/detectSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/dir.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/dist/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/dist/async.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/doDuring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/doUntil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/doWhilst.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/during.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/each.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/eachLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/eachOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/eachOfLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/eachOfSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/eachSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/ensureAsync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/every.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/everyLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/everySeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/filterLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/filterSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/forever.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/DoublyLinkedList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/applyEach.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/breakLoop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/consoleFunc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/createTester.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/doLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/doParallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/doParallelLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/doSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/eachOfLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/findGetResult.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/getIterator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/initialParams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/iterator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/notId.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/once.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/onlyOnce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/reject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/rest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/setImmediate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/internal/withoutIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/mapLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/mapSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/mapValues.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/mapValuesLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/mapValuesSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/memoize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/nextTick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/parallelLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/priorityQueue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/race.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/reduce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/reduceRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/reflect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/reflectAll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/reject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/rejectLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/rejectSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/retry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/retryable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/seq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/series.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/setImmediate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/some.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/someLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/someSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/sortBy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/timeout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/times.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/timesLimit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/timesSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/unmemoize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/until.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/waterfall.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/whilst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/any.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/bluebird.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/call_get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/catch_filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/direct_resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/errors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/finally.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/generators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/method.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/nodeback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/nodeify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise_array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promisify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/race.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/settle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/some.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/synchronous_inspection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/thenables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/using.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event.json" afterPath="$PROJECT_DIR$/event.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original.js" afterPath="$PROJECT_DIR$/original.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testS3.js" afterPath="$PROJECT_DIR$/testS3.js" />
     </list>
@@ -135,22 +74,22 @@
     <favorites_list name="imageres" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="testS3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testS3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alex.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alex.js">
+      <file leaf-file-name="original.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="-673">
+              <caret line="104" column="73" selection-start-line="104" selection-start-column="73" selection-end-line="104" selection-end-column="73" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -158,21 +97,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/event.json">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -186,10 +157,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/testS3.js" />
         <option value="$PROJECT_DIR$/alex.js" />
         <option value="$PROJECT_DIR$/event.json" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/waterfall.js" />
+        <option value="$PROJECT_DIR$/series.js" />
+        <option value="$PROJECT_DIR$/index2.js" />
+        <option value="$PROJECT_DIR$/original.js" />
+        <option value="$PROJECT_DIR$/index3.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -235,8 +212,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,12 +242,17 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alexc" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/sl_sharedservices" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/v4.5.0/bin/node" />
   </component>
-  <component name="RunManager" selected="Node.js.testS3">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -300,6 +282,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -329,8 +317,16 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="index" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="$USER_HOME$/.nvm/v4.5.0/bin/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.testS3" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.index" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -343,35 +339,65 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480120382909</updated>
-      <workItem from="1480120384908" duration="9743000" />
+      <workItem from="1480120384908" duration="28600000" />
+      <workItem from="1480196839840" duration="12451000" />
+      <workItem from="1480259869503" duration="19258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9743000" />
+    <option name="totallyTimeSpent" value="60309000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1397" height="838" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.502907" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4051144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5329744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41588157" sideWeight="0.49709302" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.502907" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4051144" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5329744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41588157" sideWeight="0.49709302" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -390,45 +416,273 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/testS3.js</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/original.js</url>
+          <line>115</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/original.js</url>
+          <line>56</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/original.js</url>
+          <line>75</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/original.js</url>
+          <line>80</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/original.js</url>
+          <line>131</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.js</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="145" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="params" language="JavaScript" />
+        <watch expression="file" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testS3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alex.js">
+    <entry file="file://$PROJECT_DIR$/original.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="1125">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/event.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="525">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="128" column="35" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testS3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/async/dist/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/series.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/async/dist/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/series.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="128" column="35" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secrets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testS3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/aws-sdk/lib/services/s3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="818" column="2" selection-start-line="818" selection-start-column="2" selection-end-line="818" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673">
+          <caret line="104" column="73" selection-start-line="104" selection-start-column="73" selection-end-line="104" selection-end-column="73" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="112" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>

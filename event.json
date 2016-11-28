@@ -1,34 +1,36 @@
 {
-  "s3_bucket": "imageres",
-  "image_list": [
-    {
-      "src_key": "images/a.jpeg"
-    },
-    {
-      "src_key": "images/b.jpeg"
-    },
-    {
-      "src_key": "images/c.jpeg"
-    },
-    {
-      "src_key": "images/d.jpeg"
-    }
-  ],
-  "size_configs": [
-    {
-      "size_name": "200",
-      "width": 200,
-      "height": 200
-    },
-    {
-      "size_name": "300",
-      "width": 300,
-      "height": 300
-    },
-    {
-      "size_name": "1024",
-      "width": 1024,
-      "height": 1024
-    }
-  ]
+  "body": {
+    "s3_bucket": "imageres",
+    "image_list": [
+      {
+        "src_key": "images/a.jpeg"
+      },
+      {
+        "src_key": "images/b.jpeg"
+      },
+      {
+        "src_key": "images/c.jpeg"
+      },
+      {
+        "src_key": "images/d.jpeg"
+      }
+    ],
+    "size_configs": [
+      {
+        "size_name": "200",
+        "width": 200,
+        "height": 200
+      },
+      {
+        "size_name": "300",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "size_name": "1024",
+        "width": 1024,
+        "height": 1024
+      }
+    ]
+  }
 }
